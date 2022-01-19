@@ -12,7 +12,7 @@ body{
 .grilla {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto; 
     gap: 0px 0px; 
     grid-template-areas: 
       "principal principal principal principal principal principal principal principal principal"
@@ -23,7 +23,7 @@ body{
       ". item4 item4 item5 item5 item6 item6 item6 item6"
       ". item4 item4 item5 item5 item6 item6 item6 item6"
       ". item4 item4 item5 item5 item6 item6 item6 item6"
-      ". item4 item4 item5 item5 item6 item6 item6 item6"
+      ". . . . . . . . ."
       "footer footer footer footer footer footer footer footer footer"; 
   }
   .principal { grid-area: principal; }
@@ -44,6 +44,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 1px 3px 10px black ;
     
 }
 
@@ -337,6 +338,17 @@ body{
     
 }
 /* Animaciones Servicios */
+
+.principal{
+    transition: all 0.25s;
+}
+.principal h1:hover{
+    transform: scale(1.1);
+}
+.principal a:hover{
+    transform: scale(1.1);
+}
+
 .img{
     display: block;
 }
@@ -660,7 +672,7 @@ body{
 @media (max-width: 425px){
     .grillaServicios {
         display: grid;
-        grid-template-columns: auto 1fr 0.4fr 1fr auto;
+        grid-template-columns: auto 1fr auto 1fr auto;
         grid-template-rows: 0.3fr 0.5fr 1fr 1fr 1fr 1.4fr auto;
         gap: 10px 10px;
         grid-auto-flow: row;
@@ -674,17 +686,7 @@ body{
           "footer footer footer footer footer";
       }
       
-    .principal {
-        grid-area: principal;
-        width: fit-content;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .principal h1{
-        font-size: 12pt;
-    }
-    
+        
     .h2 {
         grid-area: h2;
         font-family: 10pt;
