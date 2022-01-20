@@ -339,12 +339,14 @@ body{
 }
 /* Animaciones Servicios */
 
-.principal{
+.principal > *{
     transition: all 0.25s;
 }
+
 .principal h1:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
+
 .principal a:hover{
     transform: scale(1.1);
 }
