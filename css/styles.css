@@ -5,41 +5,69 @@
 }
 
 body{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
 }
 
+.espaciado{
+    right: auto;
+}
 
-.grilla {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "principal principal principal principal principal principal principal principal principal"
-      ". item1 item1 item1 item2 item2 item3 item3 ."
-      ". item1 item1 item1 item2 item2 item3 item3 ."
-      ". p p p p p p p ."
-      ". item4 item4 item5 item5 item6 item6 item6 item6"
-      ". item4 item4 item5 item5 item6 item6 item6 item6"
-      ". item4 item4 item5 item5 item6 item6 item6 item6"
-      ". item4 item4 item5 item5 item6 item6 item6 item6"
-      ". . . . . . . . ."
-      "footer footer footer footer footer footer footer footer footer"; 
-  }
-  .principal { grid-area: principal; }
-  .footer { grid-area: footer; }
-  .item1 { grid-area: item1; }
-  .item2 { grid-area: item2; }
-  .item3 { grid-area: item3; }
-  .p { grid-area: p; }
-  .item4 { grid-area: item4; }
-  .item5 { grid-area: item5; }
-  .item6 { grid-area: item6; }
+.navbar-toggler-icon{
+    right: auto;
+}
+
+.principal{
+    background-color: #687864;
+    height: 5em;
+    
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.h2Index{
+    margin-top: 1em;
+}
+.borderImg{
+    margin-top: 10px;
+}
+.borderImg > img{
+    border: solid 1px gray;
+    border-radius: 8px;
+}
+
+.parrafoIndex{
+    margin-top: 2em;
+}
+
+footer{
+    background-color: #9BAC97;
+    margin-top: 3em;
+}
+
+.color{
+    background-color: #456761;
+}
+
+.text-margin{
+    margin-left: 1em;
+}
+
+.anchors, .iconos > a{
+    text-decoration: none;
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
 
 /* ----------------- Header ----------------- */
 
 .principal{
-    background-color: #878A54;
+    background-color: #687864;
     height: 5em;
     display: flex;
     justify-content: space-around;
@@ -54,7 +82,7 @@ body{
 }
 
 .h1Index{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     color: #242B00;
     font-size: 20pt;
  
@@ -77,41 +105,7 @@ body{
 
 /* ----------------- Main ----------------- */
 
-.p{
-    margin-top: 40px;
-    text-align: center;
-    
-}
-.item1, .item2, .item3{
-    /* margin-top: 40px; */
-    display: flex;
-    justify-content: center;
-    
-}
 
-.divFotos img{
-    border: solid 1px gray;
-    border-radius: 8px;
-    margin: 10px 20px;
-}
-
-.titulosIndex{
-    margin: 30px 0px 30px 0px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.titulosIndex h4{
-    margin-top: 40px;
-    padding: 0px 0px;
-}
-
-
-.fotosIndex a img{
-    margin: 0px 5px;
-    border: solid 1px gray;
-    border-radius: 8px;
-}
 
 
 /* ----------------- Footer ----------------- */
