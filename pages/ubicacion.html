@@ -4,80 +4,169 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/5b329413f1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
     <title>Ubicación | Laguna Valle Hermoso</title>
   </head>
   <body>
     <!------------------ Comienza header ------------------>
-  <header>
-    <div class="principal">
-      
-        <!-- <a href="index.html" id="logoNav"> <img alt="logo" src="https://dummyimage.com/50x50/918981/734a18"></a> -->
-      <h1 class="h1Index"> <a href="index.html">Laguna Valle Hermoso</a></h1>
-     
-      <nav class="navHeader">
-        <ul class=nav>
-          <li> <a href="../index.html">Inicio</a></li>
-          <li> <a href="ubicacion.html">Ubicación</a></li>
-          <li> <a href="tarifas.html">Tarifas</a></li>
-          <li> <a href="servicios.html">Servicios</a></li>
-          <li> <a href="contacto.html">Contacto</a></li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light principal">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1>Laguna Valle Hermoso</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="espaciado">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/tarifas.html">Tarifas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </nav>
-    </div>
-  </header>
+    </header>
    
 <!------------------ Comienza main ------------------>
     <main>
-      <h2 class="h2Ubicacion">¿Dónde nos encontramos?</h2>
-      <div class="divParrafoUbicacion">
-        <p class="parrafoUbicacion1">Estamos a 30km del centro de ski de Las Leñas continuando por la Ruta Provincial 222 y a 100km de la ciudad de Malargüe.</p>
-        <p class="parrafoUbicacion2">A través de un camino de ripio de aproximadamente 01:30hs y con los paisajes típicos del norte patagónico se llega a Valle Hermoso. A pies de la precordillera se encuentra la Laguna</p>
-        <p class="parrafoUbicacion3">Se recomienda cargar combustible en las Leñas Antes de iniciar viaje y a su vez verificar la presión de los neumáticos y el de auxilio. El camino es sinuoso donde por tramos es solo un carril donde se exige a los conductiores brindarle prioridad al auto que se encuentra en pendiente en ascenso.</p>
-        <p class="parrafoUbicacion4">Si no contás con movilidad propia, desde Las Leñas podés contratar el traslado hacia la Laguna.</p>
+      <h2 class="h2Ubicacion text-center">¿Dónde nos encontramos?</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-3">
+            <div class="parrafoUbicacion">
+              <p>Estamos a 30km del centro de ski de Las Leñas continuando por la Ruta Provincial 222 y a 100km de la ciudad de Malargüe.</p>
+              <p>A través de un camino de ripio de aproximadamente 01:30hs y con los paisajes típicos del norte patagónico se llega a Valle Hermoso. A pies de la precordillera se encuentra la Laguna</p>
+              <p>Se recomienda cargar combustible en las Leñas Antes de iniciar viaje y a su vez verificar la presión de los neumáticos y el de auxilio. El camino es sinuoso donde por tramos es solo un carril donde se exige a los conductiores brindarle prioridad al auto que se encuentra en pendiente en ascenso.</p>
+              <p>Si no contás con movilidad propia, desde Las Leñas podés contratar el traslado hacia la Laguna.</p>
+            </div>
+          </div>
+          <div class="col-md-auto divUbicacion">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6523.621254355698!2d-70.20651968846222!3d-35.16134333743882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967ac4fcfd8e3011%3A0x1561f885a9433c6a!2sLaguna%20Valle%20Hermoso!5e0!3m2!1ses-419!2sar!4v1638229134527!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+          </div>
+        </div>
       </div>
-      <div class="divUbicacion">
-        <iframe
-        class="ubicacion"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6523.621254355698!2d-70.20651968846222!3d-35.16134333743882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967ac4fcfd8e3011%3A0x1561f885a9433c6a!2sLaguna%20Valle%20Hermoso!5e0!3m2!1ses-419!2sar!4v1638229134527!5m2!1ses-419!2sar"
-        width="600"
-        height="450"
-        allowfullscreen=""
-        loading="lazy"></iframe>
-      </div>
-    </main>
+     </main>
 
   <!------------------ Comienza footer ------------------>
-  <footer class=footer>
-    <div class="divNav">
-      <nav class="navFooter">
-        <a class=espFooter href="../pages/ubicacion.html">Ubicación</a>
-        <a class=espFooter href="../pages/tarifas.html">Tarifas</a>
-        <a class=espFooter href="../pages/servicios.html">Servicios</a>
-        <a class=espFooter href="../pages/contacto.html">Contacto</a>
-      </nav>
+  <footer class="page-footer font-small">
+
+    <div class="color">
+      <div class="container">
+
+
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-6 col-lg-5 text-xl-start text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 bold">Conectate con nuestras redes sociales!</h6>
+          </div>
+
+          <div class="col-md-6 col-lg-7 text-xl-end text-md-right iconos">
+
+            <!-- Facebook -->
+            <a class="fb-ic" href="#">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic" href="#">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic" href="#">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic" href="#">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic" href="#">
+              <i class="fas fa-campground white-text mr-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  <!------------------ Logos footer ------------------>
-    <div class="divLogos">
-      <ul class=logosFooter>
-          <li><a href="" target="blank"> <img class="logos" src="../images/walogo.svg"> </a></li>
-          <li><a href="" target="blank"> <img class="logos" src="../images/fblogo.svg"> </a></li>
-          <li><a href="" target="blank"> <img class="logos" src="../images/iglogo.svg"> </a></li>
-          <li><a href="" target="blank"> <img class="logos" src="../images/talogo.png"> </a></li>
-      </ul>
-     </div>
-   <!------------------ Form footer ------------------>
-   <div class="formFooter">
-    <h6>¡Suscribite a nuestro newsletter!</h6>
-    <form>
-      <img class="logos" id="emlogo" src="../images/emlogo.svg">
-      <input type="email" name="email" placeholder="Ingresá tu correo">
-      <input type="button" value="Enviar">
-    </form>
-  </div>
-    </footer>
+
+
+    <div class="container text-center text-md-left mt-5">
+      <div class="row mt-3">
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Laguna Valle Hermoso</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Emplazada a los pies de la cordillera. Tu lugar ideal para descansar</p>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Links</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!" class="anchors">Ubicación</a>
+          </p>
+          <p>
+            <a href="#!" class="anchors">Tarifas</a>
+          </p>
+          <p>
+            <a href="#!" class="anchors">Servicios</a>
+          </p>
+          <p>
+            <a href="#!" class="anchors">Contacto</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-map-marker-alt mr-3"></i> 35° 9' 32.251", 70° 12' 24.846"</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> laguna@vallehermoso.com.ar</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +54 260 1122 3344</p>
+          <p>
+            <i class="fab fa-whatsapp mr-3"></i> +54 260 1122 3344</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="#"> Julian Bogado</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
   </body>
 </html>

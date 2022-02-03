@@ -81,147 +81,21 @@ footer{
     color: inherit;
 }
 
-.h1Index{
-    font-family: sans-serif;
-    color: #242B00;
-    font-size: 20pt;
- 
-}
-
-
-.nav{    
-    list-style-type: none;
-    color: inherit;
-    display: flex;
-    font-weight: 500;
-}
-
-.nav li a{
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-   
-}
-
-/* ----------------- Main ----------------- */
-
-
-
-
-/* ----------------- Footer ----------------- */
-
-.footer{
-    background-color: #878A54;
-    height: 8em;
-}
-
-.divNav{
-    display: inline-block;
-      
-}
-
-.divLogos{
-    float: right;
-
-}
-.navFooter{
-    display: flex;
-    left: auto;
-    
-}
-
-.navFooter a{
-    display: inline;
-    padding: 5px 10px;
-    text-decoration: none;
-    color:inherit;
-}
-
-.espFooter{
-   padding: 5px 8px 5px 8px
-}
-
-
-/* ----------------- Logos Footer ----------------- */
-
-.logosFooter{
-    margin-right: 5px;
-    display: inline;
-
-}
-
-.logosFooter li{
-    display: inline-block;
-    align-content: flex-end;
-    justify-content: center;
-}
-
-
-.logos{
-    top: 10px;
-    height: 22px;
-    width: 22px;
-    padding: 3px 3px;
-}
-
-/* ----------------- Form footer ----------------- */
-.formFooter{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-#emlogo{
-    height: 30px;
-    width: 30px;
-    position: relative;
-    top: 11px;
-}
-
 /* ----------------- ubicacion.html -----------------  */
 
 .h2Ubicacion{
     margin-top: 10px;
-    margin-left: 30px;
+}
+
+.divUbicacion{
+    margin-top: 4em;
 }
 .divUbicacion iframe{   
     border: solid 2px gray;
 }
 
-.divParrafoUbicacion{
-    /* background-color: goldenrod; */
-    width: 30%;
-    margin: 100px 20px;
-    float: left;
-}
-
-.parrafoUbicacion1{
-    margin: 10px;
-}
-
-.parrafoUbicacion2{
-    margin: 10px;
-
-}
-
-.parrafoUbicacion3{
-    margin: 40px 10px;
-}
-
-.parrafoUbicacion4{
-    margin: 40px 10px;
-}
-
-.divUbicacion{
-    width: 600px;
-    height: 450px;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.parrafoUbicacion{
+    margin-top: 4em;
 }
 
 /* ----------------- tarifas.html -----------------  */
@@ -239,6 +113,13 @@ footer{
     margin: 20px;
 }
 
+.precioMargin{
+    margin: 2em 0;
+}
+
+.botonMargin{
+    margin: 2em 0;
+}
 /* ----------------- servicios.html -----------------  */
 
 
@@ -263,7 +144,8 @@ footer{
 
 /* --------------------- servicios.html-------------- */
 
-.grillaServicios {  display: grid;
+.grillaServicios {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr auto 1fr 1fr 1fr 1fr auto;
     gap: 20px 20px;
@@ -371,7 +253,6 @@ footer{
 .overlay:hover > *{
     transform: translateY(0);
 }
-
 
 /* ___________________________RESPONSIVE_______________________ */
 
