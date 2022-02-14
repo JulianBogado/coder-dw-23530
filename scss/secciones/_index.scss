@@ -1,0 +1,77 @@
+.h2Index{
+    margin-top: 1em;
+    @extend %fontsH2;
+}
+.borderImg{
+    margin-top: 10px;
+}
+.borderImg > img{
+    border: solid 1px gray;
+    border-radius: 8px;
+}
+
+#imgIndex{
+    max-width: 100%;
+}
+
+.parrafoIndex{
+    margin-top: 2em auto;
+}
+
+.textContainer{
+    position: relative;
+    object-fit:cover;
+    color: white;
+    border: solid 1px gray;
+    border-radius: 8px;
+    width: max-content;
+}
+
+.imgCont {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+    background-color: #9BAC97;
+    opacity: 1;
+    border-radius: 8px;
+    left: 0;
+    bottom: -0.5px;
+    width: 100%;
+    object-fit: fill;
+    
+  }
+
+.imgCont > p > a{
+    color: #456761;
+    text-decoration: none;
+}
+.tituloP{
+    opacity: 1;
+    left: 1px;
+    margin: 2px 5px;
+}
+
+.parrafoImg{
+    margin: 1em 5px;
+    font-size: 10pt;
+}
+
+#botonVh1{
+    @include efctBttn(7em, 2em, white, bold);
+    position: absolute;
+    margin: 1em 1em;
+    right: 1px;
+    border: solid 1px white;
+    border-radius: 20px;
+    &:hover{
+        background-color: #9BAC97;
+        a{
+            color: white;
+        }
+    }
+}
+#botonVh1 > a{
+    text-decoration: none;
+    color: #9BAC97;
+}

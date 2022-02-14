@@ -1,0 +1,12 @@
+body{
+    @extend %fonts;
+}
+//Importaciones
+@import './variables/extend';
+@import './header-footer/header';
+@import './header-footer/footer';
+@import './secciones/index';
+@import './secciones/contacto';
+@import './secciones/servicios';
+@import './secciones/tarifas';
+@import './secciones/ubicacion';

@@ -1,0 +1,28 @@
+.espaciado{
+    right: auto;
+}
+
+.navbar-toggler-icon{
+    right: auto;
+}
+
+.principal{
+    background-color: #687864;
+    height: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 3px 10px black ;
+    
+}
+
+.principal a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+h1{
+    margin-left: 1em;
+    font-size: 1.5em;
+}
