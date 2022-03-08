@@ -55,6 +55,10 @@ footer {
   border: solid 1px gray;
   border-radius: 8px; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 #imgIndex {
   max-width: 100%; }
 
@@ -137,6 +141,8 @@ footer {
 
 .principal {
   grid-area: principal; }
+  .principal h1 {
+    margin-left: 0; }
 
 .footer {
   grid-area: footer;

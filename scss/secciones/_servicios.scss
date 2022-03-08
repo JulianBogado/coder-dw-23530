@@ -14,7 +14,13 @@
       "footer footer footer footer footer footer footer footer footer footer";
   }
   
-  .principal { grid-area: principal; }
+.principal {
+    grid-area: principal;
+    h1{
+        margin-left: 0;
+    }
+}
+
   
 .footer {
     grid-area: footer;
