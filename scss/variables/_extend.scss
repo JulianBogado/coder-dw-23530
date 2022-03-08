@@ -1,0 +1,19 @@
+//Extend
+
+%fonts{
+    font-family: 'Asap', sans-serif;
+    color: #0c0c0e;
+}
+
+%fontsH2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+//Mixins
+
+@mixin efctBttn ($anchoBttn, $altoBttn, $bckCol, $negrita){
+    width: $anchoBttn;
+    height: $altoBttn;
+    background-color: $bckCol;
+    font-weight: $negrita;
+}
